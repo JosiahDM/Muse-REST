@@ -1,0 +1,7 @@
+.recommenders
+.metadata
+RemoteSystemsTempFiles
+Servers
+.DS_Store
+MuseJPA/target
+MuseJPA/build

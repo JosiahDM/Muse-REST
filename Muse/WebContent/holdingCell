@@ -1,0 +1,14 @@
+// var startButton = $('<button>');
+// var splashLogin = $('<button>');
+// var ul = $('<ul>');
+// ul.attr('id', 'buttonList');
+// var li1 = $('<li>');
+// var li2 = $('<li>');
+// startButton.attr('id', 'startButton');
+// splashLogin.attr('id', 'splashLogin');
+// startButton.text("Begin Focus Block");
+// splashLogin.text("Login");
+// $(li1).append(startButton);
+// $(li2).append(splashLogin);
+// $(ul).append(li1, li2);
+// $('#container').append(ul);
