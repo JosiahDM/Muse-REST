@@ -20,7 +20,8 @@ The primary goal was to practice with JavaScript, AJAX calls, and REST API build
 into a map using the subject as a key, then determines the last date they did something with that subject, 
 the total hours spent in that subject for the past month, 3 months, 6 months, and year. This map is then looped 
 over to generate the html table.
-```var map = [];
+```js
+var map = [];
     $.each(xhr, function(index, val) {
         var name = val.subject.name;
         map[name] = { 'latest': latestDate(val.end, name, map),
@@ -29,7 +30,8 @@ over to generate the html table.
                       'sixMo' : sumTime(val.start, val.end, SIXMONTH, name, map, 'sixMo'),
                       'year' : sumTime(val.start, val.end, YEAR, name, map, 'year')
                         };
-    });```
+    });
+```
     
 - HTML Snippets. Pretty useful. Much better than writing a bunch of js generated html by hand. 
 
